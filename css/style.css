@@ -8,15 +8,38 @@
     content: "";
     clear: both;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 body>.container{
     width: 80%;
     margin: auto;
 }
 .container header{
-    background-color: #E579E6 ;
-    height: 160px;
+    height: 130px;
     width: 100%;
     margin: 20px 0 30px;
+    position:relative;
+}
+.logo{
+    width: 180px;
+    padding-right: 20px;
+    border-right: 1px solid #F1F1F1;
+}
+ul{
+    list-style-type:none;
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+}
+li{
+    display: inline;
+    margin:20px 5px;
+    text-transform: uppercase;
+}
+li>a{
+    text-decoration: none;    
+    color:#8E8E8E;
 }
 .container .image-section{
     width: 100%;
