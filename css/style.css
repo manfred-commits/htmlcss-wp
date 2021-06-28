@@ -98,7 +98,7 @@ main p{
     overflow: hidden;
 }
 main h4{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .center-column{
     width: calc(50% - 40px);
