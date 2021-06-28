@@ -49,13 +49,22 @@ li>a{
     background-size: cover;
     background-position: center;
     margin: 30px 0 30px;
-    border-radius: 10px;
+    border-radius: 10px;    
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 .banner-text-container{
     position: absolute;
     bottom: 18%;
     left: 50px;
-    color: black;
+    color: white;
     width:48%;
 }
 .banner-title{
@@ -84,9 +93,13 @@ main p{
     height: 230px;
     background-position: center;    
     background-size: cover;
+    position: relative;
+    border-radius: 10px;    
+    overflow: hidden;
 }
-h4{
-    padding: 10px 0;
+}
+main h4{
+    padding: 20px 0;
 }
 .center-column{
     width: calc(50% - 40px);
@@ -98,6 +111,10 @@ h4{
     height: 230px;
     background-size: cover;
     background-position:top;
+    position: relative;
+    border-radius: 10px;    
+    overflow: hidden;
+}
 }
 .right-column{
     width: 25%;
@@ -108,10 +125,14 @@ h4{
     height: 230px;
     background-size: cover;
     background-position:top;
+    position: relative;
+    border-radius: 10px;    
+    overflow: hidden;
+}
+
 }
 footer{
     width: 100%;
-    height: 80px;
     margin-top: 14px;
     margin-bottom: 20px;
     text-align: center;
