@@ -88,14 +88,16 @@ main p{
     width: 25%;
     float: left;
 }
-.left-column-img{
-    background-image: url(../img/img-1.jpg);
+.left-column-img, .center-column-img, .right-column-img{
     height: 230px;
-    background-position: center;    
     background-size: cover;
+    background-position:top;
     position: relative;
     border-radius: 10px;    
     overflow: hidden;
+}
+.left-column-img{
+    background-image: url(../img/img-1.jpg);
 }
 main h4{
     padding: 10px 0;
@@ -107,12 +109,6 @@ main h4{
 }
 .center-column-img{    
     background-image: url(../img/banner-2.jpg);
-    height: 230px;
-    background-size: cover;
-    background-position:top;
-    position: relative;
-    border-radius: 10px;    
-    overflow: hidden;
 }
 .right-column{
     width: 25%;
@@ -120,12 +116,6 @@ main h4{
 }
 .right-column-img{
     background-image: url(../img/img-3.jpg);
-    height: 230px;
-    background-size: cover;
-    background-position:top;
-    position: relative;
-    border-radius: 10px;    
-    overflow: hidden;
 }
 footer{
     width: 100%;
